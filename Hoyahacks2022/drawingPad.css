@@ -1,0 +1,223 @@
+.drawingPad{
+    width: 25em;
+    height: 19em;
+    padding: 1em 2em 1em;
+    position: relative;
+    background: transparent;
+    width: 40em;
+    height: auto;
+    position: absolute;
+    left: 83%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+  }
+  
+  *{font-family:'Courier New', Courier, monospace;}
+  
+  #settings { display: block; text-align:center; padding-top: 1em;}
+  #settingsone{ display: block; text-align:center; padding-right: 0.5em; padding-top: 0.3em;}
+  
+  
+  #paint {  box-shadow: 0px 6px 12px#7f807f; border: 0px solid white; background : rgb(255, 255, 255); margin-left: auto; margin-right: auto; display: block; width: 22em;height: 10em; border-radius: 1em; padding-bottom: 1em;}
+  
+  .blue{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: blue;
+    position: relative;
+    position: absolute;
+    left: 75%;
+    top: 57%;
+  }
+  
+  .red{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: red;
+    position: relative;
+    position: absolute;
+    left: 77%;
+    top: 57%;
+  }
+  
+  .green{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: green;
+    position: absolute;
+    left: 79%;
+    top: 57%;
+  }
+  
+  .white{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: white;
+    position: absolute;
+    left: 81%;
+    top: 57%;
+  }
+  
+  .orange{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: orange;
+    position: absolute;
+    left: 83%;
+    top: 57%;
+  }
+  
+  .yellow{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: yellow;
+    position: absolute;
+    left: 85%;
+    top: 57%;
+  }
+  
+  .purple{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: purple;
+    position: absolute;
+    left: 87%;
+    top: 57%;
+  }
+  
+  .black{
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: black;
+    position: absolute;
+    left: 89%;
+    top: 57%;
+  }
+  
+  .small{
+    height: 2.5em;
+    width: 0.2em;
+    transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    display: inline-block;
+    border-radius: 0.5em;
+  
+    border: 1px solid #000000;
+
+    margin-right: 0.3em;
+    position: absolute;
+    left: 79%;
+    top: 60%;
+  }
+  
+  .med{
+    position: relative;
+    height: 2.5em;
+    width: 0.5em;
+    transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    display: inline-block;
+    border-radius: 0.5em;
+    position: relative;
+    
+    border: 1px solid #000000;
+
+    margin-right: 0.3em;
+    position: absolute;
+    left: 81%;
+    top: 60%;
+  }
+  
+  .large{
+    height: 2.5em;
+    width: 1em;
+    transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    display: inline-block;
+    border-radius: 0.5em;
+    border: 1px solid #000000;
+
+    margin-right: em;
+    position: relative;
+    position: absolute;
+    left: 83%;
+    top: 60%;
+  }
+  
+  .xl{
+    height: 2.5em;
+    width: 1.5em;
+    transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    display: inline-block;
+    border-radius: 0.5em;
+   
+    border: 1px solid #000000;
+
+    margin-right: 0.3em;
+    position: absolute;
+    left: 85%;
+    top: 60%;
+  }
+  
+  .sidepanel  {
+    position: relative;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 20em;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: transparent;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0.3em;
+    left: -0.8em;
+    background-color: transparent;
+    font-size: 20px;
+    color: transparent;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    color:#000000;
+  }
